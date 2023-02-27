@@ -1,0 +1,140 @@
+* {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo {
+    margin: 40px 0 0 40px;
+} 
+main {
+    display: flex;
+    margin: 0 0 5% 12%;
+}
+.text-area {
+    border: none;
+    color: #0a3871;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.text-in {
+    margin-right: 80px;
+}
+.text-in h6 {
+    font-size: 16px;
+    color: #495057;
+}
+::placeholder {color: #0a3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+#nenhuma-mensagem {
+    background: white;
+    width: 260px;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 10px 10px 10px 0 #ADB5BD;
+}
+#nenhuma-mensagem h4 {
+    color: #343A40;
+    background: white;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 10px 0;
+}
+#nenhuma-mensagem p {
+    color: #343A40;
+    background: white;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+.mensagem {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 0 #ADB5BD;
+}
+.mensagem:focus {
+    outline: none;
+}
+.personagem {
+    margin-top: 70px;
+    width: 268px;
+}
+.botoes {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-criptografar {
+    font-size: 18px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 328px;
+    transition: .2s;
+}
+.btn-criptografar:hover {
+    box-shadow: 4px 4px 4px #CCC;
+    transform: scale(1.1);
+}
+.btn-descriptografar {
+    font-size: 18px;
+    background:#D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 55px;
+    width: 328px;
+    transition: .2s;
+}
+.btn-descriptografar:hover {
+    box-shadow: 4px 4px 4px #CCC;
+    transform: scale(1.1);
+}
+.btn-copiar {
+    border: 1px solid #0A3871;
+    height: 55px;
+    width: 200px;
+    border-radius: 10px;
+    color: #0A3871;
+    cursor: pointer;
+    position: absolute;
+    font-size: 18px;
+    margin: 467px 0 0 44px;
+    transition: .2s;
+}
+.btn-copiar:hover {
+    box-shadow: 4px 4px 4px #CCC;
+    transform: scale(1.1);
+}
+
+.rodape {
+    display: inline;
+    text-align: center;
+}
+.rodape p {
+    font-size: 18px;
+    color: #0A3871;
+    margin-bottom: 15px;
+} 
+.icons ion-icon {
+    color: #0A3871;
+    margin-bottom: 15px;
+ }
+ .icons ion-icon:hover {
+    color: black;
+ }

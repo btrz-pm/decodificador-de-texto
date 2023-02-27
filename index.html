@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<Head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <title>Decodificador</title>
+</Head>
+    <body>
+        <header>
+            <img class="logo"src="C:/decodificador/imagens/logoAlura.png" alt="Logo Alura">
+        </header>
+        <main>
+            <section class="text-in">
+                
+                <textarea class="text-area" id="textIn" cols="41" rows="7" placeholder="Digite seu texto"></textarea>
+
+                <h6>⚠ Apenas letras minúsculas e sem acentos.</h6>
+
+                <div class="botoes">
+                    <button class="btn-criptografar" onclick="btnCriptografar()">Criptografar</button>
+                    <button class="btn-descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+                </div>
+
+            </section>
+        
+            <section class="text-out">
+                
+                <div id="copiar-mensagem">
+                    <textarea class="mensagem" id="textOut"cols="14" rows="11"></textarea>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            
+                <div id="nenhuma-mensagem" >
+                    
+                    <img src="../decodificador/imagens/personagem.jpg" class="personagem" alt="pessoa com lupa">
+
+                    <h4>Nenhuma mensagem encontrada</h4>
+
+                    <p>Digite o texto que você deseja criptografar ou descriptografar.</p>
+                    
+                </div>
+                
+            </section>
+         </main>
+         <footer class="rodape">
+            
+            <p>Desenvolvido por Beatriz P Machado - 2023</p>
+            
+            <div class="icons">
+                <a href="https://github.com/indigirl"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/btrzmachado/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            
+        </footer>
+       
+        <script src="script.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>
