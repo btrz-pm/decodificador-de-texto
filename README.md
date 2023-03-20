@@ -1,3 +1,5 @@
+Precisa melhorar: Responsividade, vesão mobile
+
 # decodificador-de-texto
 Challenge ONE - Decodificador de Texto
 
